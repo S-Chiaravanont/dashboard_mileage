@@ -1,0 +1,60 @@
+{
+    "MileageTableData": [
+        {
+            "Status": "Approved",
+            "Employee": "John Doe",
+            "TravelDate": "2024-01-12",
+            "Purpose": "Drop off",
+            "Origin": "18601 Airport Way, Santa Ana, CA 92707",
+            "Destination": "24112 Moulton Pkwy, Laguna Woods, CA 92637",
+            "RoundTrip": 0,
+            "Distance": 32.1,
+            "AccountCode": 1,
+            "DepartmentCode": 3,
+            "SubmittalDate": "2024-02-01",
+            "ApprovalDate": "2024-03-11"
+        }
+        , {
+            "Status": "Approved",
+            "Employee": "Sam Smith",
+            "TravelDate": "2024-02-12",
+            "Purpose": "Pick up",
+            "Origin": "23166 Los Alisos Blvd #116, Mission Viejo, CA 92691",
+            "Destination": "23251 Avenida De La Carlota, Laguna Hills, CA 92653",
+            "RoundTrip": 0,
+            "Distance": 10.1,
+            "AccountCode": 2,
+            "DepartmentCode": 2,
+            "SubmittalDate": "2024-02-20",
+            "ApprovalDate": "2024-03-01"
+        }
+        , {
+            "Status": "Pending",
+            "Employee": "Brittney Spear",
+            "TravelDate": "2024-04-01",
+            "Purpose": "Visit site",
+            "Origin": "2 Terrace Rd, Ladera Ranch, CA 92694",
+            "Destination": "990 Avenida Talega, San Clemente, CA 92673",
+            "RoundTrip": 0,
+            "Distance": 55.7,
+            "AccountCode": 1,
+            "DepartmentCode": 1,
+            "SubmittalDate": "2024-04-03",
+            "ApprovalDate": "2024-04-05"
+        }
+        , {
+            "Status": "Not Submitted",
+            "Employee": "Jimmy Dean",
+            "TravelDate": "2024-01-28",
+            "Purpose": "Check up",
+            "Origin": "110 Calle Iglesia, San Clemente, CA 92672",
+            "Destination": "18400 Avalon Blvd, Carson, CA 90746",
+            "RoundTrip": 1,
+            "Distance": 80.1,
+            "AccountCode": 2,
+            "DepartmentCode": 5,
+            "SubmittalDate": "2024-02-04",
+            "ApprovalDate": "2024-03-03"
+        }
+    ]
+}

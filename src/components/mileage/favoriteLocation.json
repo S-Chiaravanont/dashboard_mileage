@@ -1,0 +1,19 @@
+{
+    "FavoriteLocation": [
+        {
+            "LocationName": "Fav 1",
+            "FavoriteFullAddress": "3333 Bristol St, Costa Mesa, CA 92626",
+            "FavoriteLocationMileageID": 1
+        }
+        , {
+            "LocationName": "Fav 2",
+            "FavoriteFullAddress": "670 Spectrum Center Dr, Irvine, CA 92618",
+            "FavoriteLocationMileageID": 2
+        }
+        , {
+            "LocationName": "Fav 3",
+            "FavoriteFullAddress": "1313 Disneyland Dr, Anaheim, CA 92802",
+            "FavoriteLocationMileageID": 3
+        }
+    ]
+}

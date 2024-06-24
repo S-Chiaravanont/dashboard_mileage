@@ -1,0 +1,23 @@
+.car {
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.mileage-button {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #116DFF;
+    border-radius: 20px;
+    font-size: 1em;
+    border-style: none;
+    align-content: center;
+}
+
+.mileage-button:hover {
+    background-color: #8874f8;
+    cursor: pointer;
+}

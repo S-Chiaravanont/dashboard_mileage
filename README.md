@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Dashboard Mileage
+This project is a dashboard UI created with Material UI & X-Charts components. It's to showcase my React/Typescript skills. Dashboard contains 2 pages, Mileage & Mileage HR. There are guage and line graphs components from X-Charts, HTML Tables and 2 forms; update favorite location and new mileage form. One last feature is ability to download PDF of the data from history table on Mileage HR page/table tab.
 
 ## Available Scripts
 

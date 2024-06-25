@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/S-Chiaravanont/dashboard_mileage/static/css/main.5d04ba8a.css",
+    "main.js": "/S-Chiaravanont/dashboard_mileage/static/js/main.0f52f38b.js",
+    "static/js/239.2b17afd9.chunk.js": "/S-Chiaravanont/dashboard_mileage/static/js/239.2b17afd9.chunk.js",
+    "static/js/213.195af61d.chunk.js": "/S-Chiaravanont/dashboard_mileage/static/js/213.195af61d.chunk.js",
+    "static/js/732.8b626db9.chunk.js": "/S-Chiaravanont/dashboard_mileage/static/js/732.8b626db9.chunk.js",
+    "static/js/453.68693753.chunk.js": "/S-Chiaravanont/dashboard_mileage/static/js/453.68693753.chunk.js",
+    "index.html": "/S-Chiaravanont/dashboard_mileage/index.html",
+    "main.5d04ba8a.css.map": "/S-Chiaravanont/dashboard_mileage/static/css/main.5d04ba8a.css.map",
+    "main.0f52f38b.js.map": "/S-Chiaravanont/dashboard_mileage/static/js/main.0f52f38b.js.map",
+    "239.2b17afd9.chunk.js.map": "/S-Chiaravanont/dashboard_mileage/static/js/239.2b17afd9.chunk.js.map",
+    "213.195af61d.chunk.js.map": "/S-Chiaravanont/dashboard_mileage/static/js/213.195af61d.chunk.js.map",
+    "732.8b626db9.chunk.js.map": "/S-Chiaravanont/dashboard_mileage/static/js/732.8b626db9.chunk.js.map",
+    "453.68693753.chunk.js.map": "/S-Chiaravanont/dashboard_mileage/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d04ba8a.css",
+    "static/js/main.0f52f38b.js"
+  ]
+}

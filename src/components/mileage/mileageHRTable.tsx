@@ -89,7 +89,7 @@ export default function MileageHRTable({ mileageHRTableData }: MileageHRTableTyp
                                 }}
                             >
                                 <List>
-                                    {statusList && statusList.map((status, index: number) => (
+                                    {statusList && statusList.map((status) => (
                                         <ListItem key={status} dense>
                                             <Checkbox
                                                 checked={selectedStatuses.includes(status)}

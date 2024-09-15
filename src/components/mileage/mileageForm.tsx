@@ -23,7 +23,7 @@ const MileageForm = ({existFavAddress}: MileageFormType) => {
 
   const [open, setOpen] = useState<boolean>(false);
   const [inprogress, setInprogress] = useState<boolean>(true)
-  const [submitStatus, setSubmitStatus] = useState<string>('')
+  const [submitStatus] = useState<string>('')
   const [startingLocationRadio, setStartingLocationRadio] = useState<string>("startSearchBar")
   const [endingLocationRadio, setEndingLocationRadio] = useState<string>("endSearchBar")
   const [additionalLocation, setAdditionalLocation] = useState<IAdditionalLoc[] | []>([])
@@ -33,11 +33,11 @@ const MileageForm = ({existFavAddress}: MileageFormType) => {
     e.preventDefault();
     setOpen(true)
 
-    const EvalDate = dayjs(tripDate).format('YYYY-MM-DD');
-    const Purpose = e.currentTarget.purpose.value;
-    const RoundTrip = e.currentTarget.roundTrip.value;
-    const AccountCode = e.currentTarget.accountCode.value;
-    const DepartmentCode = e.currentTarget.departmentCode.value;
+    // const EvalDate = dayjs(tripDate).format('YYYY-MM-DD');
+    // const Purpose = e.currentTarget.purpose.value;
+    // const RoundTrip = e.currentTarget.roundTrip.value;
+    // const AccountCode = e.currentTarget.accountCode.value;
+    // const DepartmentCode = e.currentTarget.departmentCode.value;
     let Origin: string = '';
     let Destination: string = '';
 
@@ -83,53 +83,11 @@ const MileageForm = ({existFavAddress}: MileageFormType) => {
         stopsLocationArray.push(stopObject)
       }
     }
-
-    const mileageSubmission = {
-      EvalDate,
-      RoundTrip,
-      AccountCode,
-      DepartmentCode,
-      Purpose,
-      Origin,
-      Destination,
-      stopsLocationArray
-    };
-
-    // const mileageSubmission = {
-    //   EvalDate: '2024-05-26',
-    //   RoundTrip: '0',
-    //   AccountCode: '1',
-    //   DepartmentCode: '2',
-    //   Purpose: 'testing',
-    //   Origin: 'address here',
-    //   Destination: 'address here',
-    //   stopsLocationArray: [
-    //     {
-    //       StopNumber: 0,
-    //       Stop: 'address here',
-    //     }
-    //   ]
-    // }
-
-    const req = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(mileageSubmission)
-    }
-
-    // fetch(`route`, req)
-    //   .then(res => res.json())
-    //   .then(data => {
-    //      do something here
-    //   })
-    //   .catch((err: Error) => {
-    //      do something here
-    //   })
+    console.log(Origin)
+    console.log(Destination)
   };
 
-  const handleClose = (event: any, reason: any) => {
+  const handleClose = ( reason: any) => {
     if (reason && (reason === 'backdropClick' || reason === 'escapeKeyDown')) {
       return;
     }
@@ -506,7 +464,7 @@ const MileageForm = ({existFavAddress}: MileageFormType) => {
       <Modal
         // disablebackdropclick='true'
         open={open}
-        onClose={(event: any, reason: any) => handleClose(event, reason)}
+        onClose={(event: any) => handleClose(event)}
       >
         <Box sx={style}>
           <Typography variant="h6" sx={{ flexBasis: '100%', textAlign: 'center' }}>

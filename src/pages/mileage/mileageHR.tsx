@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../../styles.css'
-import { Typography, Box, Button, Modal } from '@mui/material';
+import { Typography, Box, Button } from '@mui/material';
 import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
 import { LineChart } from '@mui/x-charts/LineChart';
 import { Gauge, gaugeClasses } from '@mui/x-charts/Gauge';

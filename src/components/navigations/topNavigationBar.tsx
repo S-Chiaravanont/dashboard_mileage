@@ -10,8 +10,8 @@ export default function TopNavigationBar() {
     const [open, setOpen] = React.useState(false);
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-    const {user, setUser} = React.useContext(AppContext);
-    const [mileageOpen, setMileageOpen] = React.useState(true);
+    const {user} = React.useContext(AppContext);
+    const [mileageOpen] = React.useState(true);
 
     const handleClick = () => {
         setOpen(!open);
@@ -50,11 +50,11 @@ export default function TopNavigationBar() {
                             </ListItem>
                             <Collapse in={mileageOpen} timeout="auto" unmountOnExit>
                                 <List component="div" disablePadding>
-                                <ListItem button component={Link} to="/mileage">
-                                    <ListItemText primary="Mileage" sx={{ pl: 3 }} />
+                                <ListItem component={Link} to="/mileage">
+                                    <ListItemText primary="Mileage" sx={{ pl: 3, color: 'white' }} />
                                 </ListItem>
-                                <ListItem button component={Link} to="/mileageHR">
-                                    <ListItemText primary="Mileage HR" sx={{ pl: 3 }} />
+                                <ListItem component={Link} to="/mileageHR">
+                                    <ListItemText primary="Mileage HR" sx={{ pl: 3, color: 'white' }} />
                                 </ListItem>
                                 </List>
                             </Collapse>

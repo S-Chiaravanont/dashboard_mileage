@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import AppContext from './lib/app-context';
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { userType } from './lib/appContextType';
 import TopNavigationBar from './components/navigations/topNavigationBar';
 import MileagePage from './pages/mileage/mileage';

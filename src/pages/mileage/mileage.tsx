@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../../styles.css'
 import { Typography, Box, Button, Modal } from '@mui/material';
 import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
@@ -23,7 +23,7 @@ export default function MileagePage() {
         setExistFavAddress(FavoriteAddress.FavoriteLocation)
     }, [])
 
-    const handleOpenAddMileageModal = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const handleOpenAddMileageModal = () => {
         setOpenAddMileageModal(true)
     }
 
